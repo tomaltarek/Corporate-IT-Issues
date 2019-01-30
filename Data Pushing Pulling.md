@@ -14,7 +14,7 @@ Usually data is written in a text file in comma delimited or other prefered form
 
 Data pushing pulling occurs between: 
 - With Internal Customers 
-- With External Customers 
+- [With External Customers](#With-External-Customers)
 
 
 ## With Internal Customers: 
@@ -30,7 +30,7 @@ In case of external customers, prefered method is using ftp site.
 
 
 
-[Data exchanging with external customerss](#With-External-Customers)
+
 
 test texts
 
