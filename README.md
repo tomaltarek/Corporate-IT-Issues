@@ -16,7 +16,7 @@ From the scenario what we found is stack is a memory of last in first out type. 
 The stack we talked about so far is created by the operating system. But you can create your own stack if needed. You can create a stack based out of an array or based out of a linked list. 
  Adding a member on top of a stack is called Push. Removing an element from the top is called pop. 
 You can create a stack out of the scratch or use the language Library. Every language has Library and has built-in functions for any kind of data structure. 
-#Real Cool Heading
+# Real Cool Heading
 Popular functions of stacks are push pop, peek and  Isempty. 
 
 Use Case:
