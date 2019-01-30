@@ -30,9 +30,13 @@ In case of external customers, prefered method is using ftp site.
 
 
 
-
-
-test texts
+Some basic Git commands are:
+```
+int main(void)
+asdfa 
+git add
+git commit
+```
 
 
 ## With External Customers: 
