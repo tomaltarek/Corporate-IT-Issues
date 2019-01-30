@@ -13,7 +13,7 @@ Data push-pull also happens dealing with external customers.
 Usually data is written in a text file in comma delimited or other prefered format. Most of the cases, the text files are made out of a database, may be it is a query to a table on certain point of time. In the database a schedule job can be setup that runs the query on a certain time and produce a file with the data and dump the file on a folder. 
 
 Data pushing pulling occurs between: 
--With Internal Customers 
+- With Internal Customers 
 - With External Customers 
 
 
