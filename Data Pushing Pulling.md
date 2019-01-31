@@ -41,24 +41,8 @@ test
 ## With External Customers: 
 In case of external customers, prefered method is using ftp site. 
 
-<pre><code>public class TestShutdownHook
-{
-    public static void main(final String[] args) throws InterruptedException
-    {
-        Runtime.getRuntime().addShutdownHook(new Thread()
-        {
-            @Override
-            public void run()
-            {
-                System.out.println("Shutdown hook ran!");
-            }
-        });
-
-        while (true)
-        {
-            Thread.sleep(1000);
-        }
-    }
-}
+<pre><code>
+test code 
+test code 
 </code></pre>
 
