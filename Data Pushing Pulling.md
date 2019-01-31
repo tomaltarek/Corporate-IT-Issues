@@ -31,7 +31,7 @@ In case of external customers, prefered method is using ftp site.
 
 
 Code block test :
-```diff
+```java
 public class TestShutdownHook
 {
     public static void main(final String[] args) throws InterruptedException
