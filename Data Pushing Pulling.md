@@ -31,26 +31,32 @@ In case of external customers, prefered method is using ftp site.
 
 
 Code block test :
-```java
-public class TestShutdownHook
-{
-    public static void main(final String[] args) throws InterruptedException
-    {
-        Runtime.getRuntime().addShutdownHook(new Thread()
-        {
-            @Override
-            public void run()
-            {
-                System.out.println("Shutdown hook ran!");
-            }
-        });
+```C
+/*
+@tomal tarek,arcola
+This program can exit even if the end of the file is not reached
 
-        while (true)
-        {
-            Thread.sleep(1000);
-        }
+
+*/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(void)
+{
+    int x;
+    puts("give 1 to exit the program right now or give any integer to last until end of program");
+    scanf("%d",&x);
+    if (x==1)
+    {
+        puts("exiting without further doing sorry");
+        exit(EXIT_SUCCESS);
     }
+
+    else
+        puts("has reached end of program");
 }
+
 ```
 
 
