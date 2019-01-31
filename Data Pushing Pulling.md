@@ -41,8 +41,8 @@ test
 ## With External Customers: 
 In case of external customers, prefered method is using ftp site. 
 
-<pre><code>
+<code>
 test code 
 test code 
-</code></pre>
+</code>
 
